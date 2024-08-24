@@ -12,5 +12,15 @@ def my_fun_details(fname,lname):
 my_fun_details("Kadhambala","Laxman")
 my_fun_details("Kadhambala","Suma")
 my_fun_details("Kadhambala","Kavya")
-my_fun_details("Kadhambala","Nihal")  
+my_fun_details("Kadhambala","Nihal") 
+
+# Write a python program with use def key.
+print("##"*20)
+def my_fun_details(fname):
+    print(fname +" " + "Laxman")
+    
+my_fun_details("Kadhambala")
+    
+
+
 
