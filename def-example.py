@@ -61,3 +61,13 @@ def my_funtion(x):
 print("Result:",my_funtion(3))
 
 
+print("&" * 25)
+
+def func(x=[]):
+    x.append(1)
+    return x
+
+print(func())
+print(func())
+
+
