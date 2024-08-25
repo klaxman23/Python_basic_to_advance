@@ -40,4 +40,6 @@ mm = list(my_tup)
 print(mm)
 mm[0] = 6
 print(mm)
+my_tup = tuple(mm)
+print(my_tup)
 
