@@ -41,3 +41,17 @@ print(aaa)
 
 abb = np.ones((7,8))
 print(abb)
+
+#Write a numpy python program 
+first_fill_array = np.empty(10,dtype=int)
+first_fill_array.fill(12)
+print(first_fill_array)
+
+#Write a numpy python program 
+first_full_array = np.full(5,10)
+print(first_full_array)
+
+#Write a numpy python program 
+
+second_full_array = np.full((4,5),8)
+print(second_full_array)
